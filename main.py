@@ -13,13 +13,13 @@ class TrafficLight:
     async def switch(self, color):
         if color == 'red':
             print("Red light")
-            await asyncio.sleep(5)  # Red light duration: 5 seconds
+            await asyncio.sleep(4)
         elif color == 'yellow':
             print("Yellow light")
-            await asyncio.sleep(2)  # Yellow light duration: 2 seconds
+            await asyncio.sleep(6)
         elif color == 'green':
             print("Green light")
-            await asyncio.sleep(4)  # Green light duration: 4 seconds
+            await asyncio.sleep(8)
 
 
 async def main():
